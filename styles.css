@@ -1,0 +1,13 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Sora", sans-serif;
+}
+
+@media screen and (min-width: 320px) and (max-width: 800px) {
+  main {
+    background-color: aqua;
+  }
+}
