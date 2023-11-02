@@ -77,6 +77,7 @@ body {
     margin-left: 5px;
     width: 100%;
     background-color: #fafaf9;
+    padding-left: 86px;
   }
   .facebook {
     width: 40%;
@@ -88,5 +89,90 @@ body {
   .facebook-opinion p {
     font-size: 14px;
     color: #52525a;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    padding-top: 40px;
+    align-items: center;
+    justify-items: center;
+  }
+  .flex-column-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Reviewers-title {
+    font-size: 36px;
+  }
+  .Reviewers-paragrapho {
+    font-size: 20px;
+  }
+  li {
+    list-style: none;
+    font-size: 16px;
+    display: flex;
+  }
+  li p {
+    margin-left: 2px;
+  }
+
+  .layout {
+    width: 466px;
+    height: 268px;
+
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+  .google-opinion {
+    margin-left: 5px;
+    width: 100%;
+    background-color: #fafaf9;
+  }
+
+  .google {
+    width: 40%;
+  }
+  .google-yellow-stars {
+    width: 10%;
+  }
+
+  .google-opinion h2 {
+    font-size: 14px;
+  }
+  .google-opinion p {
+    font-size: 14px;
+    color: #52525a;
+  }
+  .facebook-opinion {
+    margin-left: 5px;
+    width: 100%;
+    background-color: #fafaf9;
+  }
+  .facebook {
+    width: 40%;
+  }
+  .facebook-opinion h2 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .facebook-opinion p {
+    font-size: 14px;
+    color: #52525a;
+  }
+  .rounded-star-container {
+    padding-top: 15px;
+  }
+  .rounded-star {
+    height: 100%;
+    background-color: #f5c044;
+    border-radius: 50%;
+    padding: 11px;
   }
 }
