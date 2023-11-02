@@ -4,6 +4,9 @@ html {
 
 body {
   font-family: "Sora", sans-serif;
+  background-color: #fafaf9;
+  height: 100%;
+  width: 100%;
 }
 
 @media screen and (min-width: 320px) and (max-width: 800px) {
@@ -48,7 +51,24 @@ body {
     gap: 8px;
   }
 
-  .google-opinion img {
+  .google-opinion {
+    margin-left: 5px;
+    width: 100%;
+    background-color: #fafaf9;
+  }
+
+  .google {
     width: 40%;
+  }
+  .google-yellow-stars {
+    width: 10%;
+  }
+
+  .google-opinion h2 {
+    font-size: 14px;
+  }
+  .google-opinion p {
+    font-size: 14px;
+    color: #52525a;
   }
 }
