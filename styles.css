@@ -40,6 +40,8 @@ body {
   .flex-column-container {
     flex-direction: column;
     display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .layout {
     width: 466px;
@@ -68,6 +70,22 @@ body {
     font-size: 14px;
   }
   .google-opinion p {
+    font-size: 14px;
+    color: #52525a;
+  }
+  .facebook-opinion {
+    margin-left: 5px;
+    width: 100%;
+    background-color: #fafaf9;
+  }
+  .facebook {
+    width: 40%;
+  }
+  .facebook-opinion h2 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .facebook-opinion p {
     font-size: 14px;
     color: #52525a;
   }
