@@ -1,6 +1,6 @@
 # Responsive-testimonial-page
 Testimonios
-Este proyecto es una página web que muestra testimonios de clientes satisfechos con un producto o servicio. Los testimonios se almacenan en un archivo JSON y se muestran de forma dinámica en la página usando JavaScript. La página tiene un diseño responsivo y una interfaz atractiva.
+Este proyecto es una página web que muestra testimonios de clientes satisfechos con un producto o servicio. La página tiene un diseño responsivo y una interfaz atractiva.
 
 ## Objetivo
 El objetivo de este proyecto es crear una página web que sirva como herramienta de marketing para promocionar un producto o servicio, y generar confianza y credibilidad en los potenciales clientes. Los testimonios son una forma de mostrar el valor y la calidad del producto o servicio, y de generar una conexión emocional con los clientes.
